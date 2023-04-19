@@ -1,0 +1,239 @@
+justanotherhand{
+    background-color: red;
+    font-family: "just another hand";
+}
+.fullscreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    position: absolute;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #121624;
+
+}
+.flex{
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    background-color: aqua;
+}
+
+.vertical-center{
+    position: absolute;
+    height: 100%;
+}
+
+.logo{
+    font-family: "just another hand";
+    color:#FFFFFF;
+    font-size: 7vh;
+    padding-top: 0.7%;
+}
+.top-bar{
+    position:fixed;
+    z-index:1;
+    display: flex;
+    background-color: #2E3241;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+
+}
+.status-bar{
+    position:sticky;
+    display: flex;
+    background-color:#43BB5E;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top:10%;
+    z-index:1;
+    height: 6vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Kanit', sans-serif;
+    color: #FFFFFF;
+    font-size: 2.5vh;
+}
+.total-post{
+    display: grid;
+
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 590px;
+
+    padding-top: 16%;
+    padding-bottom: 10%;
+ 
+
+
+
+
+}
+.my-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 3px;
+    height: 133px;
+    width:70%;
+    margin: 27px;
+    color: azure;
+    background:#FF93Ba;
+    border:3px;
+    background: rgba(255, 255, 255, 0.07);
+border: 2px solid rgba(255, 255, 255, 0.25);
+border-radius: 15px;
+}
+.swap-direction{
+    flex-direction: row-reverse;
+}
+.bottom-navbar{
+    position: sticky;
+    align-content: flex-end;
+    justify-content: flex-start;
+}
+body{
+    min-height: 100vh;
+    background-color: #121624;
+}
+.sticky-footer{
+    display: flex;
+    position:fixed;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    top: 90%;
+    height: 10vh;
+    background-color: #2E3241;
+    width: 100%;
+}
+.plus-button{
+    font-size: xx-large;
+    border:10px;
+    width: 20vh;
+    height: 7vh;
+}
+
+.list-button{
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+
+    border-style: solid;
+    border-radius: 1000px;
+    padding: auto;
+    background:#bbbbbb;
+    border:10px;
+    width: 7vh;
+    height: 7vh;
+
+}
+.card{
+    display: flex;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    border:3px;
+    background: rgba(255, 255, 255, 0.07);
+border: 2px solid rgba(255, 255, 255, 0.25);
+border-radius: 15px;
+}
+/* [class *= "col"]{
+    padding: 1rem;
+    background-color: aqua;
+    border: 2px solid white;
+    color: #FFFFFF;
+    text-align: center;
+} */
+.row{
+    color: #FFFFFF;
+}
+.container{
+    max-width: 70%; 
+    height: fit-content;
+    background:#FF93Ba;
+    border:3px;
+    background: rgba(255, 255, 255, 0.07);
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+}
+.col-4{
+    font-size: 2rem;
+
+}
+.row{
+    grid-area: 100px;
+}
+.pinky {
+    background-color: #FF93Ba;
+    border: none;
+    border-radius: 30px;
+    color: white;   
+}
+
+
+
+
+
+
+.sticky-footer-home{
+    display: flex;
+    position:fixed;
+    justify-content: center;
+    align-items: center;
+    top: 90%;
+    height: 10vh;
+    background-color: #2E3241;
+
+    width: 100%;
+}
+
+input{
+    box-sizing: border-box;
+
+width: 242.57px;
+height: 45px;
+left: 58.21px;
+top: 251px;
+
+border: 1px solid #E5E5E5;
+filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.08));
+border-radius: 8px;
+}
+
+.pink-button{
+    width: 149px;
+    height: 45px;
+    background: #FF93BA;
+    box-shadow: 0px 4px 10px rgba(115, 139, 225, 0.4);
+    border-radius: 8px;
+}
+
+.grey-button{
+    width: 81px;
+    height: 45px;
+    background: #BBBBBB;
+    box-shadow: 0px 4px 10px rgba(115, 139, 225, 0.4);
+    border-radius: 8px;
+}
+
+.my-form-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    font-family: 'Kanit', sans-serif;
+    color: #5A5A5A;
+    font-size: medium;
+}
+label{
+    font-weight: normal;
+}
